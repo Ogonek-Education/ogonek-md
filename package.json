@@ -1,6 +1,7 @@
 {
-	"name": "ogonek-md",
+	"name": "@ogonek-education/ogonek-md",
 	"version": "0.0.1",
+	"private": false,
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build && npm run prepack",
@@ -37,6 +38,7 @@
 		"@sveltejs/kit": "^2.50.1",
 		"@sveltejs/package": "^2.5.7",
 		"@sveltejs/vite-plugin-svelte": "^6.2.4",
+		"@tailwindcss/typography": "^0.5.19",
 		"@tailwindcss/vite": "^4.1.18",
 		"prettier": "^3.8.1",
 		"prettier-plugin-svelte": "^3.4.1",
@@ -50,5 +52,15 @@
 	},
 	"keywords": [
 		"svelte"
-	]
+	],
+	"dependencies": {
+		"@ogonek-education/ogonek-m3": "^0.0.32",
+		"lodash": "^4.17.23",
+		"rehype-sanitize": "^6.0.0",
+		"rehype-stringify": "^10.0.0",
+		"remark-gfm": "^4.0.0",
+		"remark-parse": "^11.0.0",
+		"remark-rehype": "^11.1.0",
+		"unified": "^11.0.5"
+	}
 }
