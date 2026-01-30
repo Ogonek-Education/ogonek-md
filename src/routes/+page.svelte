@@ -1,5 +1,5 @@
 <script>
-	import { Button, Display, MaterialSymbolsProvider } from '@ogonek-education/ogonek-m3';
+	import { MaterialSymbolsProvider } from '@ogonek-education/ogonek-m3';
 </script>
 
 <h1>Welcome to your library project</h1>
