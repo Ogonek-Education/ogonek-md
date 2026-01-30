@@ -12,3 +12,9 @@
 	--default-transition-duration: var(--md-sys-motion-duration-spatial);
 	--default-transition-timing-function: var(--md-sys-motion-timing-function-emphasized-decel);
 }
+
+@layer base {
+	button {
+		cursor: pointer;
+	}
+}
