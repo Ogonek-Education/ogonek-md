@@ -7,6 +7,6 @@
 </script>
 
 <MaterialSymbolsProvider icons={materialIcons} />
-<main class="bg-md-sys-color-background text-md-sys-color-on-background">
+<main class="min-h-dvh bg-md-sys-color-background text-md-sys-color-on-background">
 	{@render children()}
 </main>
